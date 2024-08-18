@@ -1,0 +1,8 @@
+local placeid = game.PlaceId
+local sportv = '18442297175'
+if placeid == sportv then
+  loadstring(game:HttpGet("-----"))()
+else
+  game.StarterGui:SetCore('SendNotification', { Title = 'Jogo Não Suportado'; Text = 'Carregando KHUB Universal...'; })
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/000and/khub/main/khub"))()
+  
